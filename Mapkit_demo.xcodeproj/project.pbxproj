@@ -23,6 +23,7 @@
 		F16071B12A7389030087FEC7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F16071B32A7389030087FEC7 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		F16071B62A7389030087FEC7 /* Mapkit_demo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mapkit_demo.xcdatamodel; sourceTree = "<group>"; };
+		F16071BD2A7389A10087FEC7 /* Mapkit-demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Mapkit-demo-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +56,7 @@
 		F16071A92A7389020087FEC7 /* Mapkit_demo */ = {
 			isa = PBXGroup;
 			children = (
+				F16071BD2A7389A10087FEC7 /* Mapkit-demo-Info.plist */,
 				F16071AA2A7389020087FEC7 /* Mapkit_demoApp.swift */,
 				F16071AC2A7389020087FEC7 /* ContentView.swift */,
 				F16071AE2A7389030087FEC7 /* Assets.xcassets */,
@@ -278,6 +280,7 @@
 				DEVELOPMENT_TEAM = 6W96N4J2BC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mapkit-demo-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -307,6 +310,7 @@
 				DEVELOPMENT_TEAM = 6W96N4J2BC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mapkit-demo-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
